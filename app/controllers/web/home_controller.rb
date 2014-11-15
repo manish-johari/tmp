@@ -1,5 +1,5 @@
 class Web::HomeController < ApplicationController
-  layout 'web/application'
+  layout 'application'
 
   def index
   end
