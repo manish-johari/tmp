@@ -1,0 +1,8 @@
+en:
+  error: "OOPS! Something went wrong!"
+  password_reset_mail_sent: "Password reset email has been sent."
+  email_not_associated_with_account: "Email not associated with a Librify account."
+  password_cannot_blank: "Password can not be blank."
+  reset_password_token_not_valid: "Reset password token is not valid."
+  deactivate: "Account has been deactivated successfully!"
+  invalid: "Invalid email or password."

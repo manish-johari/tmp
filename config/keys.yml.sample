@@ -1,0 +1,6 @@
+defaults: &defaults
+  :FACEBOOK_KEY: ""
+  :FACEBOOK_SECRET: ""
+  :GMAIL_USERNAME: ""
+  :GMAIL_PASSWORD: ""
+
