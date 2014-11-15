@@ -2,7 +2,7 @@ defaults: &defaults
   :FACEBOOK_KEY: "341031536034250"
   :FACEBOOK_SECRET: "d8ce13ac788d3b00e08e1ad6d4a9546a"
   :GMAIL_USERNAME: "bahtia.ashwin@gmail.com"
-  :GMAIL_PASSWORD: "@a11111111"
+  :GMAIL_PASSWORD: "@a22222222"
   :APP_DOMAIN: "https://pure-island-7043.herokuapp.com"
 
 development:
