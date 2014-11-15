@@ -13,7 +13,8 @@ ActionMailer::Base.smtp_settings =
  :domain               => "gmail.com",
  :user_name            => APP_CONFIG[:GMAIL_USERNAME],
  :password             => APP_CONFIG[:GMAIL_PASSWORD],
- :authentication       => "plain",
+ :authentication       => :login
+ # :authentication       => "plain",
  # :enable_starttls_auto => true
  }
 Rails.application.routes.default_url_options[:host] = APP_CONFIG[:APP_DOMAIN]
