@@ -1,5 +1,6 @@
 class Api::V1::PasswordsController < Devise::PasswordsController
   skip_before_filter :verify_authenticity_token, :only => [:create, :update]
+  prepend_before_filter :authenticate_api_user!
 
   def create
     self.resource = resource_class.send_reset_password_instructions(params[resource_name])

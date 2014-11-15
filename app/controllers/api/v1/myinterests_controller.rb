@@ -1,5 +1,7 @@
 class Api::V1::MyinterestsController < ApplicationController
 skip_before_filter :verify_authenticity_token
+prepend_before_filter :authenticate_api_user!
+
   def index
     user_interests = User.first.myinterests
     all_interests=["Religion", "Pets"]

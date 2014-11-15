@@ -1,5 +1,6 @@
 class Api::V1::SessionsController < Devise::SessionsController
   skip_before_filter :verify_authenticity_token, :only => [:create, :destroy]
+  prepend_before_filter :authenticate_api_user!, except: [:create]
 
   def create
     if params[:provider] == 'facebook'

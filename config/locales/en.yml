@@ -6,3 +6,4 @@ en:
   reset_password_token_not_valid: "Reset password token is not valid."
   deactivate: "Account has been deactivated successfully!"
   invalid: "Invalid email or password."
+  not_authorized: "Not Authorized"
