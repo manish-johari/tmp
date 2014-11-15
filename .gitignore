@@ -16,6 +16,6 @@ dump.rdb
 /log/*.log
 /tmp
 /config/database.yml
-/config/keys.yml
+
 .rvmrc
 .ruby-version
