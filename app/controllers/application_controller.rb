@@ -15,6 +15,6 @@ class ApplicationController < ActionController::Base
   end
 
   def _not_authorized message = t(:not_authorized)
-    render json: {error: message}, status: 401
+    render json: {errors: { errors: message} }, status: 401
   end
 end
